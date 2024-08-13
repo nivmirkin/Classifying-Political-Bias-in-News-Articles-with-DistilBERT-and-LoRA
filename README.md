@@ -12,11 +12,10 @@ In today's news landscape, understanding political bias is crucial. This project
 ## Features
 
 - **DistilBERT**: Utilizes the DistilBERT model for text encoding.
-<img src="https://github.com/user-attachments/assets/03f46203-1dcd-44f0-9a07-866753fcd014" width="100" />
- 
+- **LoRA**: Applies Low-Rank Adaptation for fine-tuning.
+                                                                                                                                                            <img src="https://github.com/user-attachments/assets/03f46203-1dcd-44f0-9a07-866753fcd014" width="100" />
 
   *Figure 2: Bert!*
-- **LoRA**: Applies Low-Rank Adaptation for fine-tuning.
 
 ## Results
 
