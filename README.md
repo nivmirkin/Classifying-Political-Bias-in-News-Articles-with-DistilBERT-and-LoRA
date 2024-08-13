@@ -2,7 +2,7 @@
 
 ## Overview
 
-In today's news landscape, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories. It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
+In today's news landscape, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories by their content. It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
 
 ![The Terms Left & Right](https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467)
 
@@ -11,9 +11,23 @@ In today's news landscape, understanding political bias is crucial. This project
 
 ## Features
 
-- **DistilBERT**: Utilizes the DistilBERT model for text encoding.
-- **LoRA**: Applies Low-Rank Adaptation for fine-tuning.
-                                                                                                                                                            <img src="https://github.com/user-attachments/assets/03f46203-1dcd-44f0-9a07-866753fcd014" width="100" />
+### DistilBERT
+
+- **Model Overview**: DistilBERT is a smaller, faster version of BERT, designed to provide a good balance between performance and efficiency. It is pre-trained on a large corpus and fine-tuned for specific tasks such as text classification.
+- **Advantages**:
+  - **Reduced Size**: DistilBERT is approximately 60% smaller than BERT, which reduces memory usage and speeds up inference.
+  - **Faster Inference**: Due to its smaller size, DistilBERT offers faster inference times compared to larger models like BERT, making it suitable for deployment in resource-constrained environments.
+  - **Comparable Performance**: Despite its smaller size, DistilBERT maintains a high level of performance in natural language understanding tasks, including text classification and sentiment analysis.
+
+### LoRA (Low-Rank Adaptation)
+
+- **Technique Overview**: LoRA is a technique used to adapt large pre-trained models with a low-rank decomposition approach. It helps in fine-tuning models efficiently by reducing the number of trainable parameters.
+- **Advantages**:
+  - **Efficient Fine-Tuning**: LoRA allows for efficient fine-tuning of large models by introducing a low-rank parameterization, which significantly reduces the computational cost and memory requirements compared to traditional fine-tuning methods.
+  - **Scalability**: This technique makes it feasible to adapt large models like DistilBERT to new tasks or domains with limited computational resources.
+  - **Enhanced Adaptability**: By focusing on low-rank adaptations, LoRA can achieve competitive performance on specific tasks while maintaining a smaller footprint in terms of model parameters.
+
+  <img src="https://github.com/user-attachments/assets/03f46203-1dcd-44f0-9a07-866753fcd014" width="100" />
 
   *Figure 2: Bert!*
 
@@ -84,14 +98,12 @@ The model will be trained and saved to the specified path.
 
 3. Evaluation: The script evaluates the model and logs performance metrics.
 
-## Configuration
-
-- **Training Parameters**: Adjust train_batch_size, eval_batch_size, learning_rate, and num_train_epochs in the script as needed.
-- **GPU Usage**:: Ensure fp16=True for GPU acceleration.
-
 ## Scripts
 - **'train.py'**: Contains code for training and evaluating the model.
 - **'requirements.txt'**: Lists required Python packages.
+
+##  Refrences
+-- **
 
 ## Contact
 For questions or feedback, contact nivmirkin@campus.technion.ac.il or avivlevi@campus.technion.ac.il.
