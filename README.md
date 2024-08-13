@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from the following paper:
 
-- **Baly, Ramy, Da San Martino, Giovanni, Glass, James, Nakov, Preslav.** *We Can Detect Your Bias: Predicting the Political Ideology of News Articles*. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), EMNLP~'20, November 2020, pp. 4982--4991, Association for Computational Linguistics.[ Link to paper](https://pages.github.com/).
+- **Baly, Ramy, Da San Martino, Giovanni, Glass, James, Nakov, Preslav.** *We Can Detect Your Bias: Predicting the Political Ideology of News Articles*. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), EMNLP~'20, November 2020, pp. 4982--4991, Association for Computational Linguistics.[ Link to paper](https://aclanthology.org/2020.emnlp-main.404.pdf).
 
 ## Usage
 
