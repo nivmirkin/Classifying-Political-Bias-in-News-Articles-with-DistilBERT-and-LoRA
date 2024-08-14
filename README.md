@@ -35,37 +35,7 @@ In today's news landscape, understanding political bias is crucial. This project
 
 
 
-## Prerequisites
 
-To run this project, you will need the following libraries and packages:
-
-- **Python 3.x**: The programming language used for this project.
-- **PyTorch**: Required for model training and evaluation.
-- **Transformers**: For using DistilBERT and other transformer-based models. 
-- **PEFT**: For Low-Rank Adaptation.
-- **Datasets**: For handling and processing datasets. 
-- **Scikit-learn**: For computing evaluation metrics.
-
-Install the required packages using:
-
-```bash
-pip install transformers peft datasets scikit-learn
-```
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/Classifying-Political-Bias-in-News-Articles-with-DistilBERT-and-LoRA.git
-cd Classifying-Political-Bias-in-News-Articles-with-DistilBERT-and-LoRA
-```
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
 ## Data
 
 This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from the following paper:
@@ -86,11 +56,39 @@ This project uses a pre-existing dataset for training and evaluation. The datase
 - **Bias Text**: The text that indicates the political bias of the article.
 - **Bias**: The numerical label representing the political bias of the article (e.g., 0 for left, 1 for center, 2 for right).
 
+## Prerequisites
+
+To run this project, you will need the following libraries and packages:
+
+- **Python 3.x**: The programming language used for this project.
+- **PyTorch**: Required for model training and evaluation.
+- **Transformers**: For using DistilBERT and other transformer-based models. 
+- **PEFT**: For Low-Rank Adaptation.
+- **Datasets**: For handling and processing datasets. 
+- **Scikit-learn**: For computing evaluation metrics.
+
+Install the required packages using:
+
+```bash
+pip install transformers peft datasets scikit-learn
+```
+
 ## Usage
 
-1. Prepare Data: Ensure your pre-existing dataset is accessible. Modify paths in the script if necessary.
+Clone the repository:
 
-2. Training: Run the training script:
+```bash
+git clone https://github.com/yourusername/Classifying-Political-Bias-in-News-Articles-with-DistilBERT-and-LoRA.git
+cd Classifying-Political-Bias-in-News-Articles-with-DistilBERT-and-LoRA
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+Run the training script:
+### Training:
 ```bash
 python train.py
 ```
@@ -98,6 +96,7 @@ The model will be trained and saved to the specified path.
 
 3. Evaluation: The script evaluates the model and logs performance metrics.
 
+### Using Our trained model:
 ## Scripts
 - **'train.py'**: Contains code for training and evaluating the model.
 - **'requirements.txt'**: Lists required Python packages.
