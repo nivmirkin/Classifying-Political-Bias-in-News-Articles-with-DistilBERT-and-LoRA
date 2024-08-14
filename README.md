@@ -10,6 +10,8 @@ It leverages a pre-existing dataset to train and evaluate the model for detectin
 *Figure 1: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
 *The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
 
+
+## Interduction
 ## Features
 
 ### DistilBERT
