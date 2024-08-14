@@ -12,6 +12,9 @@ It leverages a pre-existing dataset to train and evaluate the model for detectin
 
 
 ## Interduction
+
+In this project, we use DistilBERT and Low-Rank Adaptation (LoRA) to classify political bias in news articles. Our dataset consists of JSON files with news articles labeled as left, center, or right. We preprocess the data, convert labels to numerical values, and divide it into training, validation, and test sets. By fine-tuning DistilBERT with LoRA, we aim to improve the model’s efficiency and performance. We test various hyperparameters, including learning rates, LoRA rank, alpha, and dropout. Our results show that this approach provides high accuracy in bias classification, making it a practical solution for handling large text datasets.
+
 ## Features
 
 ### DistilBERT
