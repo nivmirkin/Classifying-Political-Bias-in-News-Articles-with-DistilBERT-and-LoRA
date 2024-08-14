@@ -46,9 +46,7 @@ As illustrated in Figure 3, by focusing on training only these low-rank matrices
 
 ## Data
 
-This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from the following paper:
-
-- **Baly, Ramy, Da San Martino, Giovanni, Glass, James, Nakov, Preslav.** *We Can Detect Your Bias: Predicting the Political Ideology of News Articles*. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), EMNLP~'20, November 2020, pp. 4982--4991, Association for Computational Linguistics.[[BMGN20](#refrences)].
+This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from [[BMGN20](#refrences)].
 
 #### The columns in the dataset
 - **ID**: Unique identifier for each news article.
