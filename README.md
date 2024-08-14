@@ -2,9 +2,10 @@
 
 ## Overview
 
-In today's news landscape, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories by their content. It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
+In today's news landscape, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories by their content.<br />
+It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
+ <img src="https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467" width="1200" />
 
-![The Terms Left & Right](https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467)
 
 *Figure 1: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
 *The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
@@ -18,18 +19,25 @@ In today's news landscape, understanding political bias is crucial. This project
   - **Reduced Size**: DistilBERT is approximately 60% smaller than BERT, which reduces memory usage and speeds up inference.
   - **Faster Inference**: Due to its smaller size, DistilBERT offers faster inference times compared to larger models like BERT, making it suitable for deployment in resource-constrained environments.
   - **Comparable Performance**: Despite its smaller size, DistilBERT maintains a high level of performance in natural language understanding tasks, including text classification and sentiment analysis.
+![image](https://github.com/user-attachments/assets/511a6abe-a690-4e18-8a25-664940d571ff)
+  *Figure 2: Bert Vs. DistilBERT*
 
 ### LoRA (Low-Rank Adaptation)
 
-- **Technique Overview**: LoRA is a technique used to adapt large pre-trained models with a low-rank decomposition approach. It helps in fine-tuning models efficiently by reducing the number of trainable parameters.
+- **Technique Overview**:LoRA (Low-Rank Adaptation) is a technique designed to efficiently fine-tune large pre-trained models by employing a low-rank decomposition approach. This method reduces the number of trainable parameters, making the fine-tuning process more efficient.
+In LoRA, the pre-trained model, such as DistilBERT, remains frozen, and only the low-rank matrices, often denoted as A and B, are updated during training. These matrices are significantly smaller in dimension compared to the original model parameters, allowing for a more efficient adaptation while retaining the pre-trained model's learned knowledge.
+
+As illustrated in Figure 3, by focusing on training only these low-rank matrices, LoRA effectively adapts the model to new tasks with fewer parameters being adjusted, leading to reduced computational and storage requirements.
 - **Advantages**:
   - **Efficient Fine-Tuning**: LoRA allows for efficient fine-tuning of large models by introducing a low-rank parameterization, which significantly reduces the computational cost and memory requirements compared to traditional fine-tuning methods.
   - **Scalability**: This technique makes it feasible to adapt large models like DistilBERT to new tasks or domains with limited computational resources.
   - **Enhanced Adaptability**: By focusing on low-rank adaptations, LoRA can achieve competitive performance on specific tasks while maintaining a smaller footprint in terms of model parameters.
 
-  <img src="https://github.com/user-attachments/assets/03f46203-1dcd-44f0-9a07-866753fcd014" width="100" />
+![image](https://github.com/user-attachments/assets/97f554e0-04bb-4756-ae25-ebf773563606)
 
-  *Figure 2: Bert!*
+  *Figure 3: LoRA*
+
+  
 
 ## Results
 
@@ -40,7 +48,7 @@ In today's news landscape, understanding political bias is crucial. This project
 
 This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from the following paper:
 
-- **Baly, Ramy, Da San Martino, Giovanni, Glass, James, Nakov, Preslav.** *We Can Detect Your Bias: Predicting the Political Ideology of News Articles*. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), EMNLP~'20, November 2020, pp. 4982--4991, Association for Computational Linguistics.[ Link to paper](https://aclanthology.org/2020.emnlp-main.404.pdf).
+- **Baly, Ramy, Da San Martino, Giovanni, Glass, James, Nakov, Preslav.** *We Can Detect Your Bias: Predicting the Political Ideology of News Articles*. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), EMNLP~'20, November 2020, pp. 4982--4991, Association for Computational Linguistics.[[BMGN20](#refrences)].
 
 #### The columns in the dataset
 - **ID**: Unique identifier for each news article.
