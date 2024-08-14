@@ -94,7 +94,7 @@ python train.py
 ```
 The model will be trained and saved to the specified path.
 
-3. Evaluation: The script evaluates the model and logs performance metrics.
+The script evaluates the model and logs performance metrics.
 
 ### Using Our trained model:
 ## Scripts
@@ -102,7 +102,16 @@ The model will be trained and saved to the specified path.
 - **'requirements.txt'**: Lists required Python packages.
 
 ##  Refrences
--- **
+**[BMGN20]** Ramy Baly, Giovanni Martino, James Glass, and Preslav Nakov. We can detect your bias:
+Predicting the political ideology of news articles. 11 2020.
 
+**[DCLT19]** Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training
+of deep bidirectional transformers for language understanding, 2019.
+
+**[HSW+21]** Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang,
+Lu Wang, and Weizhu Chen. Lora: Low-rank adaptation of large language models, 2021.
+
+**[SDCW20]** Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. Distilbert, a distilled
+version of bert: smaller, faster, cheaper and lighter, 202
 ## Contact
 For questions or feedback, contact nivmirkin@campus.technion.ac.il or avivlevi@campus.technion.ac.il.
