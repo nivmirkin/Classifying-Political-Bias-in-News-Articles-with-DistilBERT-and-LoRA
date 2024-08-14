@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/b2ad7bc0-bdef-46d0-ae24-e8d09746d924
 
 
 
-*This video is taken from [The Late Show with Stephen Colbert](https://www.youtube.com/watch?v=OjMCwJW7eYk)*
+*This video is taken from [The Late Show with Stephen Colbert](https://www.youtube.com/watch?v=OjMCwJW7eYk). Aired on 13 Aug 2024.* 
 
 
 
