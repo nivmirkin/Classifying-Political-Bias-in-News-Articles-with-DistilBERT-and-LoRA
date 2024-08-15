@@ -2,16 +2,6 @@
 
 ## Overview
 
-
-https://github.com/user-attachments/assets/b2ad7bc0-bdef-46d0-ae24-e8d09746d924
-
-
-
-*This video is taken from [The Late Show with Stephen Colbert](https://www.youtube.com/watch?v=OjMCwJW7eYk). Aired on 13 Aug 2024.* 
-
-
-
-
 In today's news landscape, as seen in the video, it is obvious to everyone that news is politically biased, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories by their content.<br />
 It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
  <img src="https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467" width="1200" />
