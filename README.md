@@ -20,13 +20,22 @@ It leverages a pre-existing dataset to train and evaluate the model for detectin
 *Figure 1: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
 *The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
 
+## Table of Contents
+  * [Interduction](#interduction)
+  * [Architecture](#architecture)
+  * [Dataset](#dataset)
+  * [Results](#results)
+  * [Prerequisites](#prerequisites)
+  * [Files](#files)
+  * [Usage](#usage)
+  * [References](#references)
 
 ## Interduction
 
 In this project, we use DistilBERT and Low-Rank Adaptation (LoRA) to classify political bias in news articles. Our dataset consists of JSON files with news articles labeled as left, center, or right. We preprocess the data, convert labels to numerical values, and divide it into training, validation, and test sets. By fine-tuning DistilBERT with LoRA, we aim to improve the model’s efficiency and performance. We test various hyperparameters, including learning rates, LoRA rank, alpha, and dropout. Our results show that this approach provides high accuracy in bias classification, making it a practical solution for handling large text datasets.
 
 The method we used achieves a high accuracy of [insert accuracy]\% in predicting political bias, demonstrating its effectiveness and potential for large-scale text classification. However, challenges such as classifying short texts like titles remain.
-## Features
+## Architecture
 
 ### DistilBERT
 
@@ -53,14 +62,8 @@ As illustrated in Figure 3, by focusing on training only these low-rank matrices
 
   *Figure 3: LoRA*
 
-  
 
-## Results
-
-
-
-
-## Data
+## Dataset
 
 This project uses a pre-existing dataset for training and evaluation. The dataset is sourced from [[BMGN20](#refrences)].
 
@@ -77,6 +80,15 @@ This project uses a pre-existing dataset for training and evaluation. The datase
 - **Content**: Processed or cleaned content of the article.
 - **Bias Text**: The text that indicates the political bias of the article.
 - **Bias**: The numerical label representing the political bias of the article (e.g., 0 for left, 1 for center, 2 for right).
+  
+
+## Results
+
+
+
+## Files
+- **'train.py'**: Contains code for training and evaluating the model.
+- **'requirements.txt'**: Lists required Python packages.
 
 ## Prerequisites
 
@@ -119,9 +131,6 @@ The model will be trained and saved to the specified path.
 The script evaluates the model and logs performance metrics.
 
 ### Using Our trained model:
-## Scripts
-- **'train.py'**: Contains code for training and evaluating the model.
-- **'requirements.txt'**: Lists required Python packages.
 
 ##  Refrences
 **[BMGN20]** Ramy Baly, Giovanni Martino, James Glass, and Preslav Nakov. We can detect your bias:
