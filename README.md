@@ -69,12 +69,19 @@ This project uses a pre-existing dataset for training and evaluation. The datase
   
 
 ## Results
+![image](https://github.com/user-attachments/assets/3090a9a0-8efe-495e-8db9-cd463956ef5d)
+
+Training with 'contect_original' gave us a very good result on the test data set predicting the artcile bias.
+
 #### The hyperparameters that were chosen:
 - **learning-rate**: 0.0005
 - **batch size**: 16
 - **LoRA r**: 8
 - **LoRA alpha**: 32
 - **LoRA Dropout**: 0.0
+
+ 
+
 
 ## Files
 - **'train.py'**: Contains code for training and evaluating the model.
