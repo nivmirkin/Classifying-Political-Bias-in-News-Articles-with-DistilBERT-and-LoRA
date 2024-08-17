@@ -69,7 +69,15 @@ This project uses a pre-existing dataset for training and evaluation. The datase
   
 
 ## Results
+The hyper-parameter that were chosen:
 
+\begin{itemize}
+    \item learning-rate = \(1e^{-4}\)
+    \item batch size = 32
+    \item LoRA r = 64
+    \item LoRA alpha =  64
+    \item LoRA dropout = 0.0 
+\end{itemize}
 
 
 ## Files
