@@ -125,7 +125,8 @@ pip install -r requirements.txt
 Run the training script:
 ### Training:
 ```bash
-python train.py
+train.ipynb -> To run in colab
+train.py    -> To run locally on gpu
 ```
 The model will be trained and saved to the specified path.
 
