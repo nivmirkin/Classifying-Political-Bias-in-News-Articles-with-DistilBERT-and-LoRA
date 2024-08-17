@@ -69,16 +69,12 @@ This project uses a pre-existing dataset for training and evaluation. The datase
   
 
 ## Results
-The hyper-parameter that were chosen:
-
-\begin{itemize}
-    \item learning-rate = \(1e^{-4}\)
-    \item batch size = 32
-    \item LoRA r = 64
-    \item LoRA alpha =  64
-    \item LoRA dropout = 0.0 
-\end{itemize}
-
+#### The hyperparameters that were chosen:
+- **learning-rate**: \(5 \times 10^{-4}\)
+- **batch size**: 16
+- **LoRA r**: 8
+- **LoRA alpha**: 32
+- **LoRA Dropout**: 0.0
 
 ## Files
 - **'train.py'**: Contains code for training and evaluating the model.
