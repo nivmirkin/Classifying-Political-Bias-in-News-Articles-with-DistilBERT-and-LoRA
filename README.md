@@ -4,11 +4,7 @@
 
 In today's news landscape, understanding political bias is crucial. This project uses DistilBERT and LoRA to classify news articles into left, center, or right categories by their content.<br />
 It leverages a pre-existing dataset to train and evaluate the model for detecting political bias efficiently.
- <img src="https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467" width="1200" />
 
-
-*Figure 1: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
-*The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
 
 ## Table of Contents
   * [Interduction](#interduction)
@@ -122,6 +118,12 @@ The script evaluates the model and logs performance metrics.
 
 ### Using Our trained model:
 
+
+ <img src="https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467" width="1200" />
+
+
+*Figure ?: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
+*The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
 ##  Refrences
 **[BMGN20]** Ramy Baly, Giovanni Martino, James Glass, and Preslav Nakov. We can detect your bias:
 Predicting the political ideology of news articles. 11 2020.
