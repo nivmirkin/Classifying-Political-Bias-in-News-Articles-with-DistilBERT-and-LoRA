@@ -69,7 +69,8 @@ This project uses a pre-existing dataset for training and evaluation. The datase
   
 
 ## Results
-![image](https://github.com/user-attachments/assets/3090a9a0-8efe-495e-8db9-cd463956ef5d)
+![image](https://github.com/user-attachments/assets/6fc23f02-b28f-47ea-be64-217662bd3f6e)
+
 
 Training with 'contect_original' gave us a very good result on the test data set predicting the artcile bias.
 
