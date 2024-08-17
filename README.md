@@ -80,6 +80,10 @@ Training with 'contect_original' gave us a very good result on the test data set
 - **LoRA alpha**: 32
 - **LoRA Dropout**: 0.0
 
+![image](https://github.com/user-attachments/assets/c4d3ce7c-3e35-4db2-9a29-77024f2c204d)
+
+![image](https://github.com/user-attachments/assets/52fa8f75-69df-4101-bf1d-23e0c388833f)
+
  
 
 
@@ -133,7 +137,7 @@ The script evaluates the model and logs performance metrics.
  <img src="https://github.com/user-attachments/assets/8afb88bb-128f-46ed-98f0-be1f7e9fa467" width="1200" />
 
 
-*Figure ?: Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
+* Oil sketch by David for Le Serment du Jeu de paume showing the titular Tennis Court Oath at Versailles, one of the foundational events of the French Revolution.*<br />
 *The terms 'left' and 'right' first appeared during the French Revolution of 1789. Back then, they referred to the actual seating positions of the Ancien Régime supporters (Right) and their opponents (Left).*
 ##  Refrences
 **[BMGN20]** Ramy Baly, Giovanni Martino, James Glass, and Preslav Nakov. We can detect your bias:
