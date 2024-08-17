@@ -88,7 +88,8 @@ Training with 'contect_original' gave us a very good result on the test data set
 
 
 ## Files
-- **'train.py'**: Contains code for training and evaluating the model.
+- **'train.py'**: Contains code for training and evaluating the model locally on GPU.
+- **'train.ipynb'**:  Contains code for training and evaluating the model in Google Colab.
 - **'requirements.txt'**: Lists required Python packages.
 
 ## Prerequisites
@@ -124,10 +125,7 @@ pip install -r requirements.txt
 ```
 Run the training script:
 ### Training:
-```bash
-train.ipynb -> To run in colab
-train.py    -> To run locally on gpu
-```
+Using train.py/ipynb.
 The model will be trained and saved to the specified path.
 
 The script evaluates the model and logs performance metrics.
