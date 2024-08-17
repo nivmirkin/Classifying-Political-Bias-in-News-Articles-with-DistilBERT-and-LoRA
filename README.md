@@ -84,7 +84,7 @@ Training with 'contect_original' gave us a very good result on the test data set
 
 ![image](https://github.com/user-attachments/assets/52fa8f75-69df-4101-bf1d-23e0c388833f)
 
- 
+ In order to comapre our architecture's preformence to [BMGN20]. We traind BERT and DistilBERT on 'content' and slighlty outpreformed the paper - gettin 81% accuracy (f1 and accuracy score). 
 
 
 ## Files
