@@ -75,9 +75,9 @@ Training with 'contect_original' gave us a very good result on the test data set
 
 #### The hyperparameters that were chosen:
 - **learning-rate**: 0.0005
-- **batch size**: 16
-- **LoRA r**: 8
-- **LoRA alpha**: 32
+- **batch size**: 32
+- **LoRA r**: 64
+- **LoRA alpha**: 64
 - **LoRA Dropout**: 0.0
 
 ![image](https://github.com/user-attachments/assets/c4d3ce7c-3e35-4db2-9a29-77024f2c204d)
