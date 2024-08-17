@@ -70,7 +70,7 @@ This project uses a pre-existing dataset for training and evaluation. The datase
 
 ## Results
 #### The hyperparameters that were chosen:
-- **learning-rate**: \(5 \times 10^{-4}\)
+- **learning-rate**: 0.0005
 - **batch size**: 16
 - **LoRA r**: 8
 - **LoRA alpha**: 32
